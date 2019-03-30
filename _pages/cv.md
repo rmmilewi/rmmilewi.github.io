@@ -11,30 +11,48 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science with minors in Mathematics and Classics, Birmingham-Southern College, 2011
+* M.S. in Computer and Information Sciences, University of Alabama at Birmingham, 2013
+* Ph.D in Computer and Information Sciences, University of Alabama at Birmingham, 2016
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2012: Graduate Teaching Assistant
+  * Was responsible for grading assignments, tutoring students, and teaching lab sessions.
+  * Courses: Programming Languages, Automata and Formal Language Theory, Software Engineering, and Introduction to Object-Oriented Programming.
+  * Supervisor: Puri Bangalore
   
-Skills
+* 2013: Student Instructor
+  * Taught an introductory course in programming using the Python language, with a focus on multimedia applications. 
+  * Was responsible for all lectures and labs.
+  * Supervisor: Puri Bangalore
+  
+* Summer 2013: Research Intern at Lawrence Livermore National Laboratory
+  * Developed critical software components for the ROSE compiler framework. 
+  * Currently an ongoing contributor and promoter of the ROSE project.
+  * Supervisor: Dan Quinlan
+
+* Fall 2013 - Spring 2016: Graduate Research Assistant
+  * Worked as part of the iProgress team to develop innovative research while concurrently pursuing a doctoral degree.
+  * Was directly responsible for coordinating undergraduate research activities.
+  * Advisor: Peter Pirkelbauer
+  
+* Fall 2016 - Present: Postdoctoral Appointee at Sandia National Laboratories
+  * Performing research and work activities as part of the Software Enginering and Research Department of the Center for Computing Research.
+  * Funded through the Interoperable Design of Extreme-scale Application Software (IDEAS) project, which is part of the Exascale Computing Project (ECP).
+  * Supervisor: Dena Vigil
+ 
+ 
+Research Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+* Software Engineering
+* Software Verification Systems
+* Static and Dynamic Analysis
+* Source Code Transformation Systems
+* Compiler Design
+* Non-Blocking Software Design
 
 Publications
 ======
