@@ -1,0 +1,15 @@
+---
+title: "Memory Management for Concurrent Data Structures on Hardware Transactional Memory"
+collection: publications
+permalink: /publication/2016-LockFreeQueue
+excerpt: 'Attaining efficient and portable lock-free containers is challenging as almost any CPU family implements slightly different memory models and atomic read-modify-write operations. C++11 offers a memory model and operation abstractions that enable portable implementations of non-blocking algorithms. In this paper, we present a first scalable and portable lock-free bounded queue supporting multiple readers and multiple writers. Our design uses unique empty values to decouple writing an element from incrementing the tail during enqueue. Dequeue employs a helping scheme that delays helping in the regular case, thereby reducing contention on shared memory. We evaluate our implementation on a range of architectures featuring weak and strong memory consistency models. Our comparisons with known blocking designs and another novel alternative lock-free design demonstrate that the presented implementation performs well on architectures that implement a weak memory consistency model.'
+date: 2016-12-14
+venue: '16th International Conference on Algorithms and Architectures for Parallel Processing'
+paperurl: 'http://rmmilewi.github.io/files/lockfreequeue16.pdf'
+citation: 'Peter Pirkelbauer, Reed Milewicz, and Juan Felipe Gonzalez. A portable lock-free bounded queue. In 16th International Conference on Algorithms and Architectures for Parallel Processing, Springer, LCNS 10048, pp 55--73, 2016.'
+---
+Attaining efficient and portable lock-free containers is challenging as almost any CPU family implements slightly different memory models and atomic read-modify-write operations. C++11 offers a memory model and operation abstractions that enable portable implementations of non-blocking algorithms. In this paper, we present a first scalable and portable lock-free bounded queue supporting multiple readers and multiple writers. Our design uses unique empty values to decouple writing an element from incrementing the tail during enqueue. Dequeue employs a helping scheme that delays helping in the regular case, thereby reducing contention on shared memory. We evaluate our implementation on a range of architectures featuring weak and strong memory consistency models. Our comparisons with known blocking designs and another novel alternative lock-free design demonstrate that the presented implementation performs well on architectures that implement a weak memory consistency model.
+
+[Download paper here](http://rmmilewi.github.io/files/lockfreequeue16.pdf)
+
+Recommended citation: Peter Pirkelbauer, Reed Milewicz, and Juan Felipe Gonzalez. A portable lock-free bounded queue. In 16th International Conference on Algorithms and Architectures for Parallel Processing, Springer, LCNS 10048, pp 55--73, 2016.
