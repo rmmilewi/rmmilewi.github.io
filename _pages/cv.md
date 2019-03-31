@@ -54,6 +54,18 @@ Research Interests
 * Compiler Design
 * Non-Blocking Software Design
 
+Service and Leadership
+======
+
+* JPF 2018 Co-chair
+* P-RECS 2018 PC Member
+* Parallel Computing (Student Cluster Competition 2017), Reviewer
+* WETICE 2017 PC Member
+* Parallel Computing (Student Cluster Competition 2016), Reviewer
+* WETICE 2016 PC Member
+* Journal of Applied Soft Computing (Summer 2016), Reviewer
+* Journal of Applied Soft Computing (Fall 2015), Reviewer
+
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -65,13 +77,3 @@ Talks
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
