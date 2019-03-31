@@ -2,8 +2,8 @@
 title: "Lightweight Runtime Checking of C Programs with RTC"
 collection: publications
 permalink: /publication/2016-RTCJournal
-excerpt: 'This is a journal version of the RTC paper presented at SAC'15.'
-date: 2016-
+excerpt: "This is a journal version of the RTC paper presented at SAC'15."
+date: 2016-04-01
 venue: 'Computer Languages, Systems and Structures'
 paperurl: 'http://rmmilewi.github.io/files/sac15j.pdf'
 citation: 'Reed Milewicz, Rajesh Vanka, James Tuck, Daniel Quinlan, and Peter Pirkelbauer. Lightweight runtime checking of C programs with RTC. In Computer Languages, Systems and Structures, 2016.'
@@ -15,4 +15,4 @@ This is a journal version of the RTC paper presented at SAC'15.
 
 [Download paper here](http://rmmilewi.github.io/files/sac15j.pdf)
 
-Recommended citation: Reed Milewicz, Rajesh Vanka, James Tuck, Daniel Quinlan, and Peter Pirkelbauer. Lightweight runtime checking of C programs with RTC. In Computer Languages, Systems and Structures, 2016.
+Recommended citation: Reed Milewicz, Rajesh Vanka, James Tuck, Daniel Quinlan, and Peter Pirkelbauer. Lightweight runtime checking of C programs with RTC. In Computer Languages, Systems and Structures. Volume 45. 2016.

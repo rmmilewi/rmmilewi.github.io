@@ -3,7 +3,7 @@ title: "SimpleConcepts: A Lightweight Extension to C++ to Support Constraints on
 collection: publications
 permalink: /publication/2014-SimpleConceptsJournal
 excerpt: 'This is an extended journal version of the paper presented FedCSIS in 2013.'
-date: 2014
+date: 2014-10-01
 venue: 'Computer Science and Information Systems'
 paperurl: 'http://rmmilewi.github.io/files/comsis14.pdf'
 citation: "Reed Milewicz, Marjan Mernik, and Peter Pirkelbauer. Simpleconcepts: A lightweight extension to c++ to support constraints on generic types. Computer Science and Information Systems, 11(4):1361–1379, 2014"
