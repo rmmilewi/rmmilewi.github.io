@@ -1,7 +1,7 @@
 ---
 title: "Wickedness, Trust, and Sustainability"
 collection: publications
-permalink: /publication/2019-UsabilityPosition.md
+permalink: /publication/2019-Wickedness.md
 excerpt: 'Rather than looking at sustainability as a singular problem that can be "solved", sustainability is best understood as an ongoing state of affairs. It's a reflection of our priorities, practices, and policies ,and it's a challenge that demands a full spectrum response to both the software and the culture that creates it.'
 date: 2019-05-29
 venue: '2019 Collegeville Workshop on Sustainable Scientific Software'
