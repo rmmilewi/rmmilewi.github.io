@@ -38,10 +38,14 @@ Work experience
   * Was directly responsible for coordinating undergraduate research activities.
   * Advisor: Peter Pirkelbauer
   
-* Fall 2016 - Present: Postdoctoral Appointee at Sandia National Laboratories
+* Fall 2016 - Summer 2019: Postdoctoral Appointee at Sandia National Laboratories
   * Performing research and work activities as part of the Software Enginering and Research Department of the Center for Computing Research.
   * Funded through the Interoperable Design of Extreme-scale Application Software (IDEAS) project, which is part of the Exascale Computing Project (ECP).
   * Supervisor: Dena Vigil
+  
+* Summer 2019 - Present: Senior Member of Technical Staff at Sandia National Laboratories
+  * Supervisor: Dena Vigil
+
  
  
 Research Interests
