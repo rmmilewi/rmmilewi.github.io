@@ -60,15 +60,20 @@ Research Interests
 
 Service and Leadership
 ======
-
+* C3PO'20 PC Member
 * JPF 2018 Co-chair
 * P-RECS 2018 PC Member
-* Parallel Computing (Student Cluster Competition 2017), Reviewer
 * WETICE 2017 PC Member
-* Parallel Computing (Student Cluster Competition 2016), Reviewer
 * WETICE 2016 PC Member
-* Journal of Applied Soft Computing (Summer 2016), Reviewer
-* Journal of Applied Soft Computing (Fall 2015), Reviewer
+
+Reviewerships
+======
+* Journal Of Systems and Software, Reviewer (2020)
+* Computing in Science and Engineering, Reviewer (2020)
+* Cluster Computing (2019/2020)
+* Transactions on Software Engineering (2019/2020)
+* Parallel Computing (Student Cluster Competition 2016/2017/2018)
+* Journal of Applied Soft Computing (2015/2016/2018)
 
 Publications
 ======
