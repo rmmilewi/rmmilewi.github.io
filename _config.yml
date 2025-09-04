@@ -4,7 +4,7 @@ markdown: kramdown
 # URL of the Site
 url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: https://github.com/rmmilewi/rmmilewi.github.io
 
 # Title of the Site
 title: Reed M. Milewicz, PhD
@@ -41,13 +41,13 @@ google-analytics: UA-163806439-1
 disqus-shortname: thedevslot
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: Reed Milewicz
 # URL for the Image of the Author
 author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Reed is a computer scientist and software engineering researcher in the Department of Software Engineering and Research at Sandia National Laboratories. His current research focuses on developing better practices, processes, and tools to improve software development in the scientific domain. This is a course of research that straddles the line between systems and human factors, ranging from technologies such as compilers and formal verification tools to direct engagement with software teams through evidence-based software process improvement.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/rmmilewi
 
 # SASS
 sass:
@@ -95,4 +95,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
 
