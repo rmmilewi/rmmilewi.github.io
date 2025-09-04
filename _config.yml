@@ -7,13 +7,13 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Reed M. Milewicz, PhD
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: Computer Scientist | Software Engineering Researcher
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: academic, curriculum-vitae, resume
 # URL for the Image of custom Favicon
 favicon-url: 
 
@@ -22,7 +22,7 @@ heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
+email: rmmilewi@gmail.com
 facebook_username: thedevslot
 twitter_username: thedevslot
 instagram_username: thedevslot
@@ -95,3 +95,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
