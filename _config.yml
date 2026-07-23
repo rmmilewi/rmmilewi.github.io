@@ -18,7 +18,8 @@ site-keywords: academic, curriculum-vitae, resume
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+#example image: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: "/assets/images/heroImage_Hiking.jpg"
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
@@ -45,7 +46,7 @@ author-name: Reed Milewicz
 # URL for the Image of the Author
 author-image: "/assets/images/profilePicture.jpg"
 # 60 Words About the Author
-author-about: Reed is a computer scientist and software engineering researcher in the Department of Software Engineering and Research at Sandia National Laboratories. His current research focuses on developing better practices, processes, and tools to improve software development in the scientific domain. This is a course of research that straddles the line between systems and human factors, ranging from technologies such as compilers and formal verification tools to direct engagement with software teams through evidence-based software process improvement.
+author-about: Reed is a computer scientist and software engineering researcher in the Department of Software Engineering and Research at Sandia National Laboratories. His current research focuses on developing better practices, processes, and tools to improve software development in the scientific domain. His topics of interest include science/engineering software teams and their practices, research software quality, and tailored development tools featuring AI, formal methods, and/or program analysis.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/rmmilewi
 
