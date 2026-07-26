@@ -1,6 +1,7 @@
 ---
 title: Research 
 layout: page
+permalink: /research/
 ---
 
 # About My Research
