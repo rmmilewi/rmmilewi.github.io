@@ -1,47 +1,42 @@
 # Mock entries demonstrating the publication-list format.
 # Replace these records with real publications and keep them in display order.
-- title: "Engineering Trustworthy Software for Scientific Discovery"
-  authors: "Reed M. Milewicz, Alex Researcher, and Jordan Scientist"
-  venue: "Journal of Research Software Engineering"
+- title: "We Create Quality: Towards a Human-Centric Theory of Research Software Quality in the Age of AI"
+  authors: "Reed Milewicz, Connor Brynteson, Ella Luedeke, and Italo Santos"
+  venue: "4th Annual United States Research Software Engineering Conference (US-RSE'26)"
+  year: 2026
+  type: "Conference paper"
+  description: "The paper argues that research software quality remains fundamentally human in the age of AI because people create and sustain it through their values, expertise, and collaboration, even as AI accelerates software production."
+  links:
+    - label: "Recently Accepted, Details Forthcoming"
+      url: ""
+
+- title: "Shadow of the Future: Developing Trust and Software within the Exascale Computing Project"
+  authors: "Hana Frluckaj, Benjamin H. Sims, Reed M. Milewicz, Elaine M. Raybourn, David M. Rogers, Killian Muollo, Miranda Mundt, and Will Sutherland"
+  venue: "Future Generation Computer Systems"
   year: 2026
   type: "Journal article"
-  description: "An empirical study of the practices scientific software teams use to build confidence in complex research codes."
+  description: "An interview study of Exascale Computing Project teams examining how expectations of continued collaboration fostered trust, sustained cross-project relationships, and improved scientific software quality."
   links:
-    - label: "DOI"
-      url: "https://doi.org/10.0000/example.2026.001"
-    - label: "Preprint"
-      url: "https://example.com/publications/trustworthy-software"
+  - label: "Paper"
+    url: "https://doi.org/10.1016/j.future.2026.108608"
 
-- title: "How Scientific Software Teams Share and Sustain Expertise"
-  authors: "Reed M. Milewicz and Taylor Collaborator"
-  venue: "International Conference on Software Engineering"
+- title: "Charting Uncertain Waters: A Socio-Technical Roadmap for Sustaining Open Source Communities in the Age of GenAI"
+  authors: "Zixuan Feng, Reed Milewicz, Emerson Murphy-Hill, Tyler Menezes, Alexander Serebrenik, Igor Steinmacher, and Anita Sarma"
+  venue: "ACM Transactions on Software Engineering and Methodology"
+  year: 2026
+  type: "Journal article"
+  description: "A socio-technical roadmap examining how generative AI may reshape open-source software practices, documentation, community engagement, and governance, and how communities can respond proactively to sustain their long-term resilience."
+  links:
+    - label: "Paper"
+      url: "https://doi.org/10.1145/3789210"
+
+- title: "Scientific Open-Source Software Is Less Likely to Become Abandoned Than One Might Think! Lessons from Curating a Catalog of Maintained Scientific Software"
+  authors: "Addi Malviya Thakur, Reed Milewicz, Mahmoud Jahanshahi, Lavínia Paganini, Bogdan Vasilescu, and Audris Mockus"
+  venue: "ACM International Conference on the Foundations of Software Engineering"
   year: 2025
   type: "Conference paper"
-  description: "A qualitative investigation of how multidisciplinary teams maintain shared understanding as their software and organizations evolve."
+  description: "A large-scale study of more than 18,000 scientific software projects showing that scientific open-source software tends to remain active longer than comparable non-scientific projects and identifying factors associated with software longevity."
   links:
     - label: "Paper"
-      url: "https://example.com/publications/sustaining-expertise"
-    - label: "Artifacts"
-      url: "https://github.com/rmmilewi"
+      url: "https://doi.org/10.1145/3729369"
 
-- title: "Practical Quality Strategies for Research Software Projects"
-  authors: "Reed M. Milewicz, Morgan Engineer, and Casey Developer"
-  venue: "Computing in Science & Engineering"
-  year: 2024
-  type: "Journal article"
-  description: "A set of evidence-based strategies for matching software quality practices to the constraints of scientific projects."
-  links:
-    - label: "DOI"
-      url: "https://doi.org/10.0000/example.2024.003"
-
-- title: "A Toolkit for Improving Scientific Software Processes"
-  authors: "Reed M. Milewicz and Sam Practitioner"
-  venue: "Research Software Engineering Community Workshop"
-  year: 2024
-  type: "Workshop paper"
-  description: "A lightweight toolkit that helps research teams identify process bottlenecks and choose achievable improvements."
-  links:
-    - label: "Paper"
-      url: "https://example.com/publications/process-toolkit"
-    - label: "Toolkit"
-      url: "https://example.com/resources/process-toolkit"
