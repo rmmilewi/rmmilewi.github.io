@@ -12,22 +12,20 @@
     <ol class="publication-list">
         {% for publication in site.data.publications %}
         <li class="publication-item">
-            <div class="publication-year" aria-label="Published in {{ publication.year }}">{{ publication.year }}</div>
             <article>
-                <p class="publication-type">{{ publication.type }}</p>
-                <h3>{{ publication.title }}</h3>
-                <p class="publication-authors">{{ publication.authors }}</p>
-                <p class="publication-venue"><em>{{ publication.venue }}</em></p>
-                {% if publication.description %}
-                <p class="publication-description">{{ publication.description }}</p>
-                {% endif %}
-                {% if publication.links %}
-                <div class="publication-links" aria-label="Links for {{ publication.title }}">
-                    {% for link in publication.links %}
-                    <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} <span
-                            aria-hidden="true">&nearr;</span></a>
-                    {% endfor %}
-                </div>
+                <p class="publication-citation">{{ publication.authors }}. ({{ publication.year }}). <strong>{{
+                        publication.title }}</strong>. <em>{{ publication.venue }}</em>.</p>
+                {% if publication.description or publication.links %}
+                <p class="publication-description">{% if publication.description %}{{ publication.description }}{% endif %}
+                    {% if publication.links %}
+                    <span class="publication-links" aria-label="Links for {{ publication.title }}">
+                        {% for link in publication.links %}
+                        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} <span
+                                aria-hidden="true">&nearr;</span></a>
+                        {% endfor %}
+                    </span>
+                    {% endif %}
+                </p>
                 {% endif %}
             </article>
         </li>

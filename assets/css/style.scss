@@ -373,8 +373,7 @@ a.navbar-item.is-active {
         }
     }
 
-    .publications-kicker,
-    .publication-type {
+    .publications-kicker {
         font-size: 0.75rem;
         font-weight: 700;
         letter-spacing: 0.12em;
@@ -400,62 +399,37 @@ a.navbar-item.is-active {
 
     .publication-item {
         border-bottom: 1px solid #d8d8d8;
-        display: grid;
-        gap: 1.5rem;
-        grid-template-columns: 4.5rem 1fr;
-        padding: 2rem 0;
+        padding: 1.1rem 0;
 
         article > :last-child {
             margin-bottom: 0;
         }
-
-        h3 {
-            font-size: 1.35rem;
-            line-height: 1.35;
-            margin: 0.25rem 0 0.5rem;
-        }
     }
 
-    .publication-year {
-        font-size: 1.1rem;
-        font-weight: 700;
-        padding-top: 0.15rem;
-    }
-
-    .publication-type {
-        color: #6b6b6b;
-        margin: 0;
-    }
-
-    .publication-authors,
-    .publication-venue {
-        margin-bottom: 0.3rem;
+    .publication-citation,
+    .publication-description {
+        line-height: 1.45;
+        margin-bottom: 0.25rem;
     }
 
     .publication-description {
         color: #4a4a4a;
-        margin-top: 0.85rem;
-        max-width: 50rem;
     }
 
     .publication-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.6rem;
-        margin-top: 1rem;
+        display: inline-flex;
+        gap: 0.45rem;
+        margin-left: 0.5rem;
 
         a {
-            border: 1px solid black;
-            border-radius: 999px;
             color: black;
             font-size: 0.8rem;
             font-weight: 600;
-            padding: 0.3rem 0.75rem;
+            text-decoration: underline;
 
             &:hover,
             &:focus {
-                background: black;
-                color: white;
+                color: #6b6b6b;
             }
         }
     }
@@ -470,9 +444,11 @@ a.navbar-item.is-active {
         }
 
         .publication-item {
-            gap: 0.35rem;
-            grid-template-columns: 1fr;
-            padding: 1.5rem 0;
+            padding: 1rem 0;
+        }
+
+        .publication-links {
+            margin-left: 0.25rem;
         }
     }
 }
