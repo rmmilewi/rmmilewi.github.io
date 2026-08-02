@@ -46,6 +46,16 @@
                     class="has-text-black" aria-label="GitHub profile" title="GitHub"><i
                         class="fa-brands fa-github"></i></a>
                 {% endunless %}
+                {% unless site.orcid_id == %}
+                <a href="https://orcid.org/{{ site.orcid_id }}" target="_blank" rel="noopener noreferrer"
+                    class="has-text-black" aria-label="ORCID profile" title="ORCID"><i
+                        class="fa-brands fa-orcid"></i></a>
+                {% endunless %}
+                {% unless site.google_scholar_user == %}
+                <a href="https://scholar.google.com/citations?user={{ site.google_scholar_user }}" target="_blank"
+                    rel="noopener noreferrer" class="has-text-black" aria-label="Google Scholar profile"
+                    title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+                {% endunless %}
                 {% unless site.youtube_channel_id ==  %}
                 <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i class="fab fa-youtube"></i></a>
                 {% endunless %}
