@@ -1,0 +1,16 @@
+<ol class="service-entry-list" aria-label="{{ include.label }}">
+    {% for entry in include.items %}
+    <li class="service-entry">
+        <div class="service-entry-heading">
+            <h2>{{ entry.title }}</h2>
+            <p class="service-entry-dates">{{ entry.dates }}</p>
+        </div>
+        <p class="service-entry-context">{{ entry.context }}</p>
+        <p class="service-entry-description">{{ entry.description }}</p>
+        {% if entry.link %}
+        <a class="service-entry-link" href="{{ entry.link.url }}" target="_blank" rel="noopener noreferrer">{{
+            entry.link.label }} <span aria-hidden="true">&nearr;</span></a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ol>
