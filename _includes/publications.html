@@ -1,0 +1,36 @@
+<section class="publications" aria-labelledby="selected-publications-heading">
+    <div class="publications-heading">
+        <div>
+            <p class="publications-kicker">Recent work</p>
+            <h2 id="selected-publications-heading">Selected Publications</h2>
+        </div>
+        <a class="publications-scholar-link"
+            href="https://scholar.google.com/citations?hl=en&amp;user=PzG-VUAAAAAJ" target="_blank"
+            rel="noopener noreferrer">View all on Google Scholar <span aria-hidden="true">&rarr;</span></a>
+    </div>
+
+    <ol class="publication-list">
+        {% for publication in site.data.publications %}
+        <li class="publication-item">
+            <div class="publication-year" aria-label="Published in {{ publication.year }}">{{ publication.year }}</div>
+            <article>
+                <p class="publication-type">{{ publication.type }}</p>
+                <h3>{{ publication.title }}</h3>
+                <p class="publication-authors">{{ publication.authors }}</p>
+                <p class="publication-venue"><em>{{ publication.venue }}</em></p>
+                {% if publication.description %}
+                <p class="publication-description">{{ publication.description }}</p>
+                {% endif %}
+                {% if publication.links %}
+                <div class="publication-links" aria-label="Links for {{ publication.title }}">
+                    {% for link in publication.links %}
+                    <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} <span
+                            aria-hidden="true">&nearr;</span></a>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </article>
+        </li>
+        {% endfor %}
+    </ol>
+</section>

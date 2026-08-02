@@ -1,0 +1,47 @@
+# Mock entries demonstrating the publication-list format.
+# Replace these records with real publications and keep them in display order.
+- title: "Engineering Trustworthy Software for Scientific Discovery"
+  authors: "Reed M. Milewicz, Alex Researcher, and Jordan Scientist"
+  venue: "Journal of Research Software Engineering"
+  year: 2026
+  type: "Journal article"
+  description: "An empirical study of the practices scientific software teams use to build confidence in complex research codes."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.0000/example.2026.001"
+    - label: "Preprint"
+      url: "https://example.com/publications/trustworthy-software"
+
+- title: "How Scientific Software Teams Share and Sustain Expertise"
+  authors: "Reed M. Milewicz and Taylor Collaborator"
+  venue: "International Conference on Software Engineering"
+  year: 2025
+  type: "Conference paper"
+  description: "A qualitative investigation of how multidisciplinary teams maintain shared understanding as their software and organizations evolve."
+  links:
+    - label: "Paper"
+      url: "https://example.com/publications/sustaining-expertise"
+    - label: "Artifacts"
+      url: "https://github.com/rmmilewi"
+
+- title: "Practical Quality Strategies for Research Software Projects"
+  authors: "Reed M. Milewicz, Morgan Engineer, and Casey Developer"
+  venue: "Computing in Science & Engineering"
+  year: 2024
+  type: "Journal article"
+  description: "A set of evidence-based strategies for matching software quality practices to the constraints of scientific projects."
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.0000/example.2024.003"
+
+- title: "A Toolkit for Improving Scientific Software Processes"
+  authors: "Reed M. Milewicz and Sam Practitioner"
+  venue: "Research Software Engineering Community Workshop"
+  year: 2024
+  type: "Workshop paper"
+  description: "A lightweight toolkit that helps research teams identify process bottlenecks and choose achievable improvements."
+  links:
+    - label: "Paper"
+      url: "https://example.com/publications/process-toolkit"
+    - label: "Toolkit"
+      url: "https://example.com/resources/process-toolkit"
